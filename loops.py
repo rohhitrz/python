@@ -1,72 +1,72 @@
-s = ["hello", "ok", "no hello"]
+# s = ["hello", "ok", "no hello"]
 
-for i in s:
-    print(i);
-
-
-for i in range(1,4):
-    for j in range(1,4):
-        print(i,j)
+# for i in s:
+#     print(i);
 
 
-a = ["shirt", "sock", "pants", "sock", "towel"]
+# for i in range(1,4):
+#     for j in range(1,4):
+#         print(i,j)
 
-for i in a:
-    if i == "pants":
-        continue
-    print(i)
+
+# a = ["shirt", "sock", "pants", "sock", "towel"]
+
+# for i in a:
+#     if i == "pants":
+#         continue
+#     print(i)
 
 # *agrs **kwargs
 
 
 # *agrs
 
-def func(*argv):
-  for arg in argv:
-    print(arg)
+# def func(*argv):
+#   for arg in argv:
+#     print(arg)
 
-func("name","shame","came");
+# func("name","shame","came");
 
 
 # #  **kwargs
-def function(**kwargs):
-  for k,v in kwargs.items():
-    print("%s==%s" % (k,v))
+# def function(**kwargs):
+#   for k,v in kwargs.items():
+#     print("%s==%s" % (k,v))
 
-function(name="Rohit", age=24);
+# function(name="Rohit", age=24);
 
-#anonymous function
+# #anonymous function
 
-func_cube=lambda x:x**3
+# func_cube=lambda x:x**3
 
-print(func_cube(4))
+# print(func_cube(4))
 
 
 #recursive function
 
-def factorial(n):
-    if(n==0):
-        return 1
+# def factorial(n):
+#     if(n==0):
+#         return 1
     
-    else:
-        return n * factorial(n - 1) 
+#     else:
+#         return n * factorial(n - 1) 
 
 
 
-print(factorial(5))
-print(factorial(11))
+# print(factorial(5))
+# print(factorial(11))
 
 
 #python function within function
 
-def A():
-    name="Rohit"
+# def A():
+#     name="Rohit"
 
-    def B():
-        print("my name is ", name)
+#     def B():
+#         print("my name is ", name)
     
-    B();
-A()
+#     B();
+# A()
 
 
 
