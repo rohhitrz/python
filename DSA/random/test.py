@@ -58,6 +58,7 @@ def reverse2(num):
 print(reverse2(123412))
 print(reverse2(123))
 print(reverse2(-123))
+print(reverse2(-1623))
 
 
 def CheckPalindrome(num):
